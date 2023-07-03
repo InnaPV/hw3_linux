@@ -1,0 +1,23 @@
+   0 tree
+   1 cd /root
+   2 tree
+   3 cd /home
+   4 tree
+   5 mkdir -p /home/homework
+   6 tree
+   7 touch /home/homework/hw.txt
+   8 tree
+   9 date > hw.txt
+  10 cat hw.txt
+  11 df -h / >> hw.txt
+  12 cat hw.txt
+  13 history | tail -n 5 >> hw.txt
+  14 cat hw.txt
+  15 grep "vendor" /proc/cpuinfo | sort >> hw.txt
+  16 cat hw.txt
+  17 nano
+  18 nano /home/homework/hw.txt
+  19 history
+  20 nano hw.txt
+  21 cat hw.txt
+  22 history > hw_3.txt
